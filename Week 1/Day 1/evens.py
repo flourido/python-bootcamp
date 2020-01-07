@@ -8,7 +8,8 @@ N= int(input("Enter an upper limit: "))
 		#print(number)
 
 #using a while loop to perfomr the same function 
-print("using a wile loop: ")
+N= int(input("Enter an upper limit: "))
+print("using a while loop: ")
 counter= 1
 while counter <= N:
 	if(counter %2 == 0):

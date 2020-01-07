@@ -4,12 +4,18 @@
 
 
 # Use a For loop first 
-print("using a for loop: ")
 N= int(input("Enter an upper limit: "))
-for number in range(1, N+1):
+print("using a for loop: ")
+for number in range(0, N+1):
 	if(number %2 == 1):
 		print(number)
 
 
 # Use a while loops: 
-#print (usin a while loop:)
+print("using a while loop: ")
+number= 1
+while number <= N:
+	if(number %2 == 1):
+		print(number)
+
+	number += 1

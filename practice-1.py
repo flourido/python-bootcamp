@@ -17,7 +17,7 @@ print(find_evens(2,20))
 def find_evens_mult_3(A,B):
 	evens_mults =[]
 	for nums in range(A,B+1):
-		if(nums %2 == 0 and nums%3 == 0):
+		if(nums %2 == 0 and nums %3 == 0):
 			evens_mults.append(nums)
 	return evens_mults
 print("List of numbers that are even multiples of 3")

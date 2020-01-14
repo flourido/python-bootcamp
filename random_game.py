@@ -9,6 +9,8 @@ user_won = False
 
 while num_guesses != 0 and user_won == False:
 	user_guess = int(input("Enter your guess: "))
+	guess_list=[]
+	
 	if user_guess == winning_number:
 		print("Hey, you won! Number of guesses left:", num_guesses)
 		user_won = True

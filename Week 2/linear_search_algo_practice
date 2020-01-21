@@ -1,0 +1,8 @@
+#review of the linear search algorithm from previous week
+
+def search(list,x):
+	for index in range (0,len(list)):
+		if list[index] == x:
+			return index
+
+	return None
